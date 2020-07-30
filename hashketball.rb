@@ -189,7 +189,7 @@ def player_stats(name)
 game_hash.each do |key, value|
 value[:players].each do |player_name|
   if name == player_name[:player_name] return player_name
-  #hash_of_players_stats << :player_name.delete(:player_name)
+  hash_of_players_stats << :player_name
   
   
   #So at this part , if name == player_name[:player_name] return player_name
