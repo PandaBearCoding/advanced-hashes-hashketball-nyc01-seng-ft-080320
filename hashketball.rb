@@ -190,7 +190,6 @@ value[:players].each do |player_name|
   if name == player_name[:player_name] returnn player_name
   end
   end
-  end
   hash_of_players_stats
 end
 
