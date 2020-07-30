@@ -192,7 +192,7 @@ value[:players].each do |player_name|
   hash_of_players_stats << :player_name.delete(:player_name)
   
   
-  So at this part , if name == player_name[:player_name] return player_name
+  #So at this part , if name == player_name[:player_name] return player_name
 
 
   
