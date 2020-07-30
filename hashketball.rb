@@ -195,15 +195,11 @@ value[:players].each do |player_name|
   #So at this part , if name == player_name[:player_name] return player_name
   # Remove the delete stuff and the empty hash in the beginning
 
-
-
-
   
-  #end
   end
   end
-  #hash_of_players_stats
-  game_hash
+  end
+  hash_of_players_stats
 end
 
 
