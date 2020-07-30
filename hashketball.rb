@@ -184,7 +184,6 @@ def player_numbers(team_name)
 end
 
 
-def player_stats(sought_player_name)
 def player_stats(name)
 hash_of_players_stats = {}
 game_hash.each do |key, value|
