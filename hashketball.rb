@@ -197,6 +197,12 @@ value[:players].each do |player_name|
 end
 
 
+So at this part , if name == player_name[:player_name] return player_name
+
+Remove the delete stuff and the empty hash in the beginning
+
+
+
 def big_shoe_rebounds
   biggest_shoe = 0
   num_rebounds = 0
